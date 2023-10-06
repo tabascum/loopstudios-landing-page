@@ -7,4 +7,7 @@
   --very-dark-gray: hsl(0, 0%, 41%);
 
   --fs: 15px;
+
+  --f-primary: "Alata", sans-serif;
+  --f-secondary: "Josefin Sans", sans-serif;
 }

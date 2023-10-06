@@ -14,7 +14,59 @@ body::before {
   top: 0;
   left: 0;
   position: absolute;
-  background: url("../images/desktop/image-hero.jpg") no-repeat top;
+  background: var(--white) url("../images/desktop/image-hero.jpg") no-repeat top;
   background-size: contain;
+  filter: brightness(70%);
   z-index: -1;
+}
+
+main {
+  width: max(1240px);
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  width: 100%;
+  color: var(--white);
+  padding-block: 4.2rem;
+}
+
+.hero-navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-nav-menu {
+  width: 35%;
+  display: inherit;
+  justify-content: space-between;
+  font-family: var(--f-primary);
+}
+
+.hero-nav-menu p {
+  padding-block: 0.5rem;
+  border-block-end: 0.1rem solid transparent;
+  transition: 0.5s all;
+}
+
+.hero-nav-menu p:hover {
+  cursor: pointer;
+  border-block-end: 0.1rem solid var(--white);
+}
+
+.hero-header {
+  text-transform: uppercase;
+  font-family: var(--f-secondary);
+  font-size: 4rem;
+  padding: 2rem;
+  border: 0.1rem solid var(--white);
+  width: 40rem;
+  margin-block: 10rem;
+  align-items: center;
+  overflow: hidden;
 }
