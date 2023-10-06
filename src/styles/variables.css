@@ -11,3 +11,22 @@
   --f-primary: "Alata", sans-serif;
   --f-secondary: "Josefin Sans", sans-serif;
 }
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: var(--f-secondary);
+}
+
+p {
+  font-family: var(--f-primary);
+}
