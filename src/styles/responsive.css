@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+  main {
+    width: max(1000px);
+  }
+
+  .creations-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(10rem, 100%);
+    gap: 1.5rem;
+  }
+}
