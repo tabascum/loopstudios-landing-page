@@ -197,8 +197,12 @@ button {
   padding: 2.5rem;
 }
 
+.mobile-button {
+  display: none;
+}
+
 footer {
-  width: 100vw;
+  width: 100%;
   height: 25vh;
   color: var(--white);
   background: var(--black);
@@ -274,6 +278,10 @@ footer {
 }
 
 @media (max-width: 1270px) {
+  main {
+    max-width: 1000px;
+  }
+
   .nav-menu {
     display: none;
   }
@@ -318,6 +326,10 @@ footer {
   .creations-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .mobile-button {
+    display: block;
   }
 
   footer {
